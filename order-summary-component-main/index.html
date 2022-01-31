@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      height: 800px;
+      font-size: 16px;
+      background-color: hsl(225, 100%, 98%);
+      font-family: 'Outfit', sans-serif;
+    }
+    .card{
+      border-radius: 20px 20px 20px 20px ;
+      text-align: center;
+      width: 28.2rem;
+      margin-top: 3cm;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding-bottom: 0px;
+    }
+    .card-title h4{
+      color: hsl(223, 47%, 23%);
+      font-weight: 700;
+    }
+    .card-img-top img{
+      border-radius:  20px 20px 0  0 ;
+    }
+    .card-text p{
+      color: hsl(224, 23%, 55%);
+      font-weight:400;
+      
+    }
+    .jumboutron{
+      background-color: hsl(225, 100%, 98%);
+      align-items: center;
+      border-radius: 10px;
+    }
+
+    .f{
+      flex-basis: 33.33%;
+    }
+    .card-footer{
+      padding: 10px 0 0 0 ;
+    }
+    .btn{
+      border-radius: 10px;
+      background-color: hsl(245, 75%, 52%);
+    }
+    .jumboutron a {
+      font-size: 14px;
+    }
+    strong , a{
+      color: hsl(223, 47%, 23%);
+    }
+    .jumboutron span{
+      color: hsl(224, 23%, 55%);
+    }
+    .footer a{
+      color: hsl(224, 23%, 55%);
+      font-weight: 650;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+
+
+
+    <div class="container">
+      <div class="card shadow-lg">
+        <div class="card-img-top">
+          <img src="/images/illustration-hero.svg" alt="">
+        </div>
+        <div class="card-body ">
+          <div class="card-title pt-3">
+            <h4>Order Summary</h4>
+          </div>
+          <div class="card-text px-4 py-2">
+            <p>You can now listen to millions of songs, <br> audiobooks, and podcasts on any 
+              device <br> anywhere you like!</p>
+          </div>
+          <div class="jumboutron mx-2 mb-4 justify-content-center row">
+            <img width="45px" height="45px" src="/images/icon-music.svg" alt="">
+            <p class="f mt-2"><strong> Annual Plan </strong><br>
+              <span>$59.99/year</span>
+            </p>
+            <a href="#" class="f text-right mb-2">Change</a>
+          </div>
+          <button class="btn p-2 mb-4 shadow-lg text-white btn-block">
+            Proceed to Payment
+          </button>
+          <div class="footer pb-4">
+            <a href="#">Cancel Order</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdellah el aajjouri</a>.
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
